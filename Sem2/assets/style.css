@@ -1,0 +1,30 @@
+h1 {
+  color: darkorange;
+  margin: 0; /*отменили стандартный отступ*/
+}
+
+
+p{
+  color: rgb(255, 0, 25); /*Цвет не изменился, т.к. задали стиль в классе*/
+  margin: 0; /*отменили стандартный внешний отступ*/
+}
+
+.text{
+  color: darkgreen;
+  font-size: 30px;
+  margin-top: 20px;/*отступ сверху у внешнего отступа*/
+}
+
+.box{
+  width: 500px;
+  border: 3px solid red ; /* Границы, Solid - сплошная*/
+  background-color: azure;
+  padding: 40px; /*Внутренний отступ*/
+  margin-bottom: 40px; 
+}
+
+section{
+  display: flex; /*flex - выставляет в один ряд*/
+  align-items: center;
+  flex-direction: column;
+}
