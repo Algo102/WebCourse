@@ -14,6 +14,13 @@
 
   <!-- Средний приоритет -->
   <link rel="stylesheet" href="./assets/style.css">
+
+  <script>/* Писать что скрипт ява не обязательно, так как он по умолчанию*/
+    //alert('Всем привет !');
+    // создали переменную, которая обращается к id, по вызову переменных смысла тут писать нет. Есть смысл когда подключаем ссылки или виджиты (не зависящий от боди)
+    // let el = document.getElementById("el1");
+    // console.log(el);
+  </script>
 </head>
 <body>
   
@@ -21,18 +28,27 @@
   <section> 
     <!-- под секция -->
     <div class="box">
-      <!-- Приоритет стиль в загооловке замый главный -->
+      <!-- Приоритет стиль в заголовке самый главный -->
       <h1 style="font-size: 50px; color: blue;"> Всем привет!!!</h1>
-      <p class="text"> Мой первый сайт</p>
+      <!-- подключили id -->
+      <p class="text" id="el2"> Мой первый сайт</p>
     </div>  
+    
     <div class="box">     
       <p class="text"> Сегодня я расскажу вам</p>
     </div> 
     <!-- alt - на случай если ссылка не работает, помогает seo -->
     <img src="https://avatars.mds.yandex.net/i?id=1f1bef9dc2d6119b0d9d69982d2797e262bf34ea-9065783-images-thumbs&n=13" width="200" height="200" alt="Ждем картинку неба"> 
-     
-     
+    <button class="btn" id="btn1" >Нажми на меня</button>     
   </section>
+  <!-- <script>
+    // alert('Всем привет !');
+    let el2 = document.getElementById("el2");
+    console.log(el2);
+    el2.classList.add('ice'); // Добавили класс
+    el2.classList.remove('ice'); // Удалили класс
+  </script> -->
 
+  <script src="./assets/script.js"></script>
 </body>
 </html>

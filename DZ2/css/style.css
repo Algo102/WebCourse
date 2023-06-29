@@ -1,0 +1,53 @@
+html {
+  background-color: rgb(221, 238, 238);
+}
+
+h1 {
+  color: rgb(174, 49, 49);
+  font-size: 40px;
+  
+}
+
+
+h3{
+  color: rgb(95, 29, 35); 
+  
+}
+
+.text1{
+  color: darkgreen;
+  font-size: 20px;
+  margin-top: 0px;/*отступ сверху у внешнего отступа*/
+}
+
+.text2{
+  color: darkgreen;
+  font-size: 20px;
+  margin-top: 0px;/*отступ сверху у внешнего отступа*/
+}
+
+.box1{
+  width: 900px;
+  border: 3px solid #7b4b4b ; /* Границы, Solid - сплошная*/
+  background-color: azure;
+  padding: 5px; /*Внутренний отступ*/
+  margin-bottom: 5px; 
+  display: flex; /*flex - выставляет в один ряд*/
+}
+
+
+
+
+
+
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
