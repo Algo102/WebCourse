@@ -1,0 +1,40 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box {
+    width: 500px;
+    /* border - границы */
+    border: 3px solid red;
+    background-color:#f3e3ce;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+h1 {
+    color:darkorange;
+    margin: 0;
+}
+p {
+    color: aqua;
+    margin: 0;
+}
+.text {
+    color: darkgreen;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.ice {
+    color:cyan;
+    font-size: 40px;
+}
+.btn {
+    margin-top: 40px;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(141, 255, 255);
+    border: 2px solid rgb(255, 183, 2);
+}
+.btn:hover {
+    background-color: rgb(69, 85, 85);
+}

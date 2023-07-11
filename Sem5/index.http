@@ -1,0 +1,21 @@
+// Отправляем запрос. Улетит запрос и вернется ответ в виде html
+GET https://nalog.ru
+
+// Content-Type: text/html; говорит то что в теле ответа html
+
+### // Запросы разделяются таким решетками
+
+GET https://jsonplaceholder.typicode.com/users/
+
+###
+
+POST https://jsonplaceholder.typicode.com/users/
+
+Content-Type: application/json
+{
+    "name": "Kamila",
+    "value": 5
+}
+
+# CORS
+# Access-Token

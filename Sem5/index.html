@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Seminar</title>
+    <!-- ctrl + / - комментарий, ctrl + s - сохранение-->
+    <!-- <style>
+        h1 {
+            color: chartreuse;
+        }
+    </style> -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <!-- ctrl + / -->
+    <!-- <script>
+        // alert('Всем привет!');
+        // let el1 = document.getElementById("el1");
+        // console.log(el1);
+    </script> -->
+</head>
+<body>
+    <!-- Блок 1 секции -->
+    <section>
+        <div class="box">
+            <h1 style="font-size: 50px;">Всем привет!</h1>
+            <p class="text" id="el1">Мой первый сайт</p>
+        </div>
+        <div class="box">
+            <p class="text">Сегодня я расскажу про свою жизнь</p>
+        </div>
+        <img src="https://cdnn21.img.ria.ru/images/148839/96/1488399659_0:0:960:960_600x0_80_0_1_e38b72053fffa5d3d7e82d2fe116f0b3.jpg" width="200" height="200" alt="Котики">
+        <button class="btn" id="btn1">Нажми на меня!</button>
+    </section>
+    <!-- Блок 2 секции -->
+    <!-- <script>
+        alert('Всем привет!');
+        let el2 = document.getElementById("el1");
+        console.log(el2);
+        // добавили класс
+        el2.classList.add('ice');
+        // удалили класс
+        el2.classList.remove('ice');
+    </script> -->
+    
+
+   
+    <script src="./assets/script.js"></script> 
+
+     <!-- Делаем GET запрос на фейковый сервер, чтоб получить юзеров, чтоб потом их вывести на наш html -->
+    <script src="./assets/scriptGet.js"></script>
+
+     <!-- Внутри этой секции будем вставлять пользователей -->
+     <section id="users"></section>    
+
+    <!-- Подключаем скрипт для POST запроса -->
+    <script src="./assets/scriptPost.js"></script>
+
+    <!-- Создаем форму для отправки ПОСТ запроса -->
+    <form id="form">
+        <input type="text" placeholder="Введите имя">
+        <input type="submit" value="Отправить запрос">
+    </form>
+</body>
+</html>
